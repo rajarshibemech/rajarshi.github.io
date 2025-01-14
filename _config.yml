@@ -1,3 +1,9 @@
 theme: jekyll-theme-minimal
 title: Rajarshi Guha
 description: Welcome to Rajarshi Guha's website
+plugins:
+  - jekyll-readme-index
+readme_index:
+  enabled:          true
+  remove_originals: false
+  with_frontmatter: false
